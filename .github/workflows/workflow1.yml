@@ -1,0 +1,8 @@
+name: Workflowi i pare
+on: workflow_dispatch
+job:
+  emrijobit:
+    runs-on: ubuntu-latest
+    steps:
+      name: "First step"
+      run: echo "Hi"
