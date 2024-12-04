@@ -1,6 +1,6 @@
 name: Workflowi i pare
 on: workflow_dispatch
-job:
+jobs:
   emrijobit:
     runs-on: ubuntu-latest
     steps:
